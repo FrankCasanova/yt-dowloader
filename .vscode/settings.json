@@ -9,6 +9,7 @@
     "docwriter.progress.trackTypes": true,
     "wolf.disableHotModeWarning": true,
     "cSpell.words": [
+        "fastapi",
         "uvicorn"
     ]
 }
