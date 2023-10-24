@@ -40,6 +40,6 @@ async def delete_file(audio_path: str) -> Awaitable[None]:
     Args:
         audio_path (str): The path to the audio file to be deleted.
     """
-    await asyncio.sleep(0.5)
+    await asyncio.sleep(10)
     if os.path.exists(audio_path):
         os.remove(audio_path)
