@@ -28,8 +28,7 @@ def download_audio(url: str, audio_path: str) -> None:
         None
     """
     command = (
-        f"yt-dlp -x --audio-format mp3 --ffmpeg-location "
-        f"C:/Users/frank/Downloads/ffmpeg-2023-10-18-git-e7a6bba51a-essentials_build/bin/ffmpeg.exe -o {audio_path} {url}"
+        f"yt-dlp -x --audio-format mp3 -o {audio_path} {url}"
     )
     subprocess.call(command, shell=True)
     
